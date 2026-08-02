@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UniDash — Delete Your Account</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         line-height: 1.6; color: #1a1a1a; background: #f6f5f0; }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 40px 20px 80px; }
+  h1 { font-size: 1.9rem; margin: 0 0 6px; letter-spacing: -0.5px; }
+  h2 { font-size: 1.2rem; margin: 30px 0 8px; }
+  .brand { display:inline-block; background:#0E8A5F; color:#fff; font-weight:700; border-radius:8px; padding:4px 10px; font-size:0.85rem; margin-bottom:18px; }
+  ol, ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .step { background: rgba(14,138,95,0.06); border:1px solid rgba(14,138,95,0.2); border-radius: 10px; padding: 14px 18px; margin: 14px 0; }
+  .warn { border-left: 4px solid #C63B3B; background: rgba(198,59,59,0.07); padding: 12px 16px; border-radius: 6px; margin: 18px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 0.95rem; }
+  th, td { border: 1px solid #e0ded7; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: rgba(14,138,95,0.08); }
+  a { color: #0E8A5F; }
+  .email { font-weight: 700; }
+  footer { margin-top: 46px; color: #6b6b6b; font-size: 0.85rem; border-top: 1px solid #e0ded7; padding-top: 16px; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e8e6e0; background: #14140f; }
+    footer { color: #9a988f; border-color:#33322b; }
+    th, td { border-color: #33322b; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="brand">UniDash</span>
+  <h1>Delete your account</h1>
+  <p>This page explains how to delete your UniDash account and what happens to your data. It applies to the <strong>UniDash</strong> student app (developer: The Office Development).</p>
+
+  <h2>Option 1 — Delete it yourself in the app (instant)</h2>
+  <div class="step">
+    <ol>
+      <li>Open the UniDash app and sign in.</li>
+      <li>Go to the <strong>Profile</strong> tab (bottom-right, "You").</li>
+      <li>Scroll down and tap <strong>Delete account</strong>.</li>
+      <li>Confirm. Your account and personal data are removed immediately.</li>
+    </ol>
+  </div>
+
+  <h2>Option 2 — Ask us to delete it</h2>
+  <p>Email <span class="email">privacy@unidash.food</span> from the email address registered to your account, with the subject "Delete my account". We will verify it is you and delete the account, typically within 30 days.</p>
+
+  <div class="warn">
+    <strong>Deletion is permanent and cannot be undone.</strong> Any remaining
+    wallet balance is <strong>forfeited</strong> — redeem it before deleting.
+  </div>
+
+  <h2>What is deleted vs. kept</h2>
+  <table>
+    <tr><th>Data</th><th>What happens</th></tr>
+    <tr><td>Login, name, email, student number, push token</td><td><strong>Deleted immediately</strong></td></tr>
+    <tr><td>Your wallet transaction ledger</td><td><strong>Deleted</strong></td></tr>
+    <tr><td>Order records</td><td><strong>Anonymised</strong> — kept for accounting/dispute-resolution but no longer linked to you</td></tr>
+  </table>
+  <p>Retention of anonymised financial records is permitted under Jordan's Personal Data Protection Law No. 24 of 2023. For full details see our <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <footer>UniDash · <a href="privacy.html">Privacy Policy</a> · Account deletion</footer>
+</div>
+</body>
+</html>
